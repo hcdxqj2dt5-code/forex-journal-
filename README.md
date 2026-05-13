@@ -190,7 +190,8 @@ $${trade.profit}
 <p><strong>Notes:</strong> ${trade.notes}</p>              
 ${                 
 trade.image ?                 
-`<img src="${trade.image}">`                 :                 
+`<img src="${trade.image}">`                 
+:                 
 ""             
 }          
 </div>         
