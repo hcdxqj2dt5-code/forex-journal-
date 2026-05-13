@@ -64,7 +64,9 @@ button:hover{
     border-radius:10px; }  
 .green{     
     color:#22c55e; }  
-.red{     color:#ef4444; }  
+.red{     
+    color:#ef4444; 
+}  
 .calendar{     
     display:grid;     
     grid-template-columns:repeat(7,1fr);     
@@ -148,7 +150,8 @@ function saveTrade(){
             profit,             
             notes,             
             image: reader.result         
-};          trades.push(trade);          
+};          
+trades.push(trade);          
 localStorage.setItem("trades", JSON.stringify(trades));          
 renderTrades();         
 renderStats();         
