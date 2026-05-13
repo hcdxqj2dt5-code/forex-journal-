@@ -8,7 +8,7 @@ body{
     margin:0;     
     font-family:Arial, sans-serif;     
     background:#0f172a;     
-    color:white; 
+     color:white; 
 }  
 .container{     
     max-width:1200px;     
