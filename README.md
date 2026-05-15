@@ -1,17 +1,24 @@
 # forex-journal-
-html <!DOCTYPE html>  
-<html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0" <link rel="manifest" href="manifest.json">
-<meta name="theme-color" content="#3b82f6"> <title>Forex Trading Journal</title> <style> <script>
+<!DOCTYPE html>  
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0" <link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#3b82f6"> 
+<title>Forex Trading Journal</title>
+<style> 
+<script>
 if ("serviceWorker" in navigator)
-{ navigator.serviceWorker.register("service-worker.js")
+{navigator.serviceWorker.register("service-worker.js")
     .then(() => console.log("Service Worker Registered"));
 }
 </script> 
 body{     
     margin:0;     
     font-family:Arial, 
-    sans-serif;     background:#0f172a;     
-color:white; }  
+    sans-serif; 
+    background:#0f172a;  
+    color:white; }  
 .container{     
     max-width:1200px;     
     margin:auto;     
@@ -20,7 +27,8 @@ h1{
     text-align:center;     
     margin-bottom:30px; }  
 .card{     
-    background:#1e293b;     padding:20px;     
+    background:#1e293b; 
+    padding:20px;     
     border-radius:15px;     
     margin-bottom:20px;     
     box-shadow:0 0 10px rgba(0,0,0,0.3); }  
@@ -35,13 +43,14 @@ h1{
             background:#334155;     
             color:white; }  
             button{     
-                background:#3b82f6;   
+                background:#3b82f6;  
                 color:white;     
                 cursor:pointer;     
                 transition:0.3s; }  button:hover{     
                 background:#2563eb; }  .stats{     
-                    display:grid;     grid-template-columns:repeat(auto-fit,minmax(200px,1fr));     
-                gap:15px; }  
+                    display:grid;
+                    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));    
+                    gap:15px; }  
 .stat-box{     
     background:#334155;     
     padding:20px;     
