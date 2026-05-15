@@ -1,5 +1,5 @@
 # forex-journal-
-html <!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0" <link rel="manifest" href="manifest.json">
+html <!DOCTYPE html>  <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0" <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#3b82f6"> <title>Forex Trading Journal</title>  <style> <script>
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("service-worker.js")
